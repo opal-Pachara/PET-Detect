@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bottle', 'cap', 'label']
+
+roboflow:
+  workspace: pachara-rne32
+  project: bottle-defect-detection-srfqc-t1qcs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pachara-rne32/bottle-defect-detection-srfqc-t1qcs/dataset/1
